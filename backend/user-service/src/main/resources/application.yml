@@ -1,0 +1,10 @@
+#APP-DETAILS
+spring:
+  application:
+    name: USER-SERVICE
+  profiles:
+    active: dev
+
+#PORT
+server:
+  port: 9093

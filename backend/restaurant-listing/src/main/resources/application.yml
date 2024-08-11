@@ -1,0 +1,10 @@
+#APP-DETAILS
+spring:
+  application:
+    name: RESTAURANT-SERVICE
+  profiles:
+    active: dev
+
+#PORT
+server:
+  port: 9091

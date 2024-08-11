@@ -1,0 +1,18 @@
+spring:
+  #DATABASE
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: restaurantsdb
+      username: root
+      password: root
+      authentication-database: admin
+
+#EUREKA
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true

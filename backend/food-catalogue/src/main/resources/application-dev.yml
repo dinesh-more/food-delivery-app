@@ -1,0 +1,20 @@
+spring:
+  #DATABASE
+  datasource:
+    url: jdbc:mysql://localhost:3306/foodcataloguedb
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
+
+#EUREKA
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-0.eureka-service.default.svc.cluster.local:8761/eureka
+  instance:
+    prefer-ip-address: true

@@ -1,0 +1,10 @@
+#APP-DETAILS
+spring:
+  application:
+    name: ORDER-SERVICE
+  profiles:
+    active: dev
+
+#PORT
+server:
+  port: 9094
